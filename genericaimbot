@@ -1,6 +1,6 @@
 `-- use with silent aim for the best results aimbot strength amount = smoothing and to change the hitbox change the RecurringPoint and Hitbox -- 
 
-getgenv().RecurringPoint = "Head" -- // can change if you want to // --
+getgenv().RecurringPoint = "Head"
 getgenv().Hitbox = "Head"
 getgenv().Keybind = "e"
 getgenv().AimbotStrengthAmount = 0.0330
