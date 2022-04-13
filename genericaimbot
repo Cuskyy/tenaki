@@ -1,0 +1,19 @@
+`-- use with silent aim for the best results aimbot strength amount = smoothing and to change the hitbox change the RecurringPoint and Hitbox -- 
+
+getgenv().RecurringPoint = "Head" -- // can change if you want to // --
+getgenv().Hitbox = "Head"
+getgenv().Keybind = "e"
+getgenv().AimbotStrengthAmount = 0.0330
+getgenv().PredictionAmount = 10
+getgenv().Radius = 25
+getgenv().UsePrediction = true
+getgenv().AimbotStrength = true
+getgenv().FirstPerson = true
+getgenv().ThirdPerson = true
+getgenv().TeamCheck = false
+getgenv().Enabled = true
+getgenv().HideConsoleInfo = True
+
+-- // main script use with silent aim, made by tenaki / / -- 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()`
